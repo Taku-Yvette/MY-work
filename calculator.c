@@ -49,6 +49,15 @@ int fibbo(int n)
     }
 }
 
+// brandon's own branch
+
+int add(int a, int b)
+{
+    int c;
+
+    c=a+b;
+}
+
 
 int main(){
 
@@ -57,6 +66,9 @@ printf("%d\n",power(2,3));
 printf("%d\n",squareroot(5));
 //updated git code
 printf("%d\n",fibbo(13));
+// brandon branch
+
+printf("%d\n",add(2,8));
 
     return 0;
 }
